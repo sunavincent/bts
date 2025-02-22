@@ -1,0 +1,15 @@
+.texteVert p{
+    color: green;
+} 
+
+header{
+    background-color: #c9a5c6 !important;  /* Using !important to override the Bootstrap class */
+    text-align: center;
+    color: aliceblue;
+}
+
+footer {
+    background-color: #c9a5c6 !important;  /* Using !important to override the Bootstrap class */
+    text-align: center;
+    color: aliceblue;
+}
