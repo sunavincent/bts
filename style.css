@@ -12,4 +12,29 @@ footer {
     background-color: #c9a5c6 !important;  /* Using !important to override the Bootstrap class */
     text-align: center;
     color: aliceblue;
+    margin: 0 !important; /* Remove margin */
+    padding: 0 !important; /* Remove padding */
+    width: 100%; /* Ensure full width */
+}
+
+footer .container-fluid {
+    padding: 0 !important; /* Remove padding from the container inside the footer */
+    margin: 0 !important; /* Remove margin from the container inside the footer */
+}
+
+a {
+    color: aliceblue;
+  }
+
+@media (max-width: 576px) and (orientation: portrait) {
+    body {
+        transform: rotate(90deg);
+        transform-origin: left top;
+        width: 100vh; /* Hauteur devient la largeur */
+        height: 100vw; /* Largeur devient la hauteur */
+        overflow-x: hidden;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
 }
